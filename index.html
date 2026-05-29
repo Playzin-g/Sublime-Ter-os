@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sublime Terços - Modelos Exclusivos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <h1>Sublime Terços</h1>
+            <span>Arte e Devoção</span>
+        </div>
+        <nav class="navbar">
+            <a href="#inicio">Início</a>
+            <a href="#modelos">Modelos</a>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Peças Únicas que Expressam sua Fé</h2>
+            <p>Terços artesanais feitos com pedras naturais, cristais e o cuidado que sua devoção merece.</p>
+            <a href="#modelos" class="btn-scroll">Conhecer Modelos</a>
+        </div>
+    </section>
+
+    <section id="modelos" class="catalog-section">
+        <div class="section-title">
+            <h2>Nossos Modelos</h2>
+            <p>Arraste para o lado para ver mais</p>
+        </div>
+
+        <div class="scroll-container">
+            
+            <div class="product-card">
+                <div class="product-badge">Mais Vendido</div>
+                <div class="product-img-placeholder">
+                    <i class="fas fa-cross fa-3x"></i>
+                    </div>
+                <div class="product-info">
+                    <h3>Terço Clássico em Pérolas</h3>
+                    <p>Pérolas sintéticas de 8mm, crucifixo trabalhado em banho de prata e entremeio de Nossa Senhora das Graças.</p>
+                    <div class="product-price">R$ 89,90</div>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img-placeholder">
+                    <i class="fas fa-cross fa-3x"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Terço de Madeira Nobre</h3>
+                    <p>Contas em madeira rústica de oliveira, cordão ultra resistente e acabamento fosco. Ideal para o dia a dia.</p>
+                    <div class="product-price">R$ 59,90</div>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-badge">Premium</div>
+                <div class="product-img-placeholder">
+                    <i class="fas fa-cross fa-3x"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Terço em Cristal de Rocha</h3>
+                    <p>Pedras naturais de quartzo transparente, lapidadas individualmente, com detalhes e crucifixo folheados a Ouro 18k.</p>
+                    <div class="product-price">R$ 189,90</div>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img-placeholder">
+                    <i class="fas fa-cross fa-3x"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Terço Hematita Masculino</h3>
+                    <p>Pedras de hematita preta com brilho metálico, entremeio de São Bento e visual sóbrio e elegante.</p>
+                    <div class="product-price">R$ 74,90</div>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img-placeholder">
+                    <i class="fas fa-cross fa-3x"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Terço Infantil Anjo da Guarda</h3>
+                    <p>Contas coloridas emborrachadas, leves e seguras, com entremeio emborrachado do Santo Anjo.</p>
+                    <div class="product-price">R$ 45,00</div>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="sobre" class="about-section">
+        <div class="about-content">
+            <h2>Sobre a Sublime Terços</h2>
+            <p>Nascemos do desejo de unir a beleza estética à profundidade da oração. Cada terço é confeccionado manualmente, com materiais selecionados e excelente acabamento, transformando cada peça em um verdadeiro instrumento de fé e devoção familiar.</p>
+        </div>
+    </section>
+
+    <footer id="contato" class="footer">
+        <div class="footer-grid">
+            <div>
+                <h3>Sublime Terços</h3>
+                <p>Enviamos para todo o Brasil com amor e devoção.</p>
+            </div>
+            <div>
+                <h3>Contato</h3>
+                <p><i class="fab fa-whatsapp"></i> (11) 99999-9999</p>
+                <p><i class="far fa-envelope"></i> contato@sublimetercos.com.br</p>
+            </div>
+            <div>
+                <h3>Siga-nos</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sublime Terços. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
